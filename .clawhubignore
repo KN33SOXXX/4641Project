@@ -1,0 +1,19 @@
+# Keep StudyClawHub/ClawHub bundles text-only and lightweight.
+social_workspace
+social_workspace/
+datasets/
+models/
+cache/
+logs/
+outputs/
+*.log
+*.pid
+*.pyc
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+

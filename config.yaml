@@ -1,0 +1,67 @@
+workspace:
+  root: /data2/social_workspace
+  datasets_dir: /data2/social_workspace/datasets
+  models_dir: /data2/social_workspace/models
+  outputs_dir: /data2/social_workspace/outputs
+  logs_dir: /data2/social_workspace/logs
+  cache_dir: /data2/social_workspace/cache
+
+vllm:
+  base_url: http://127.0.0.1:10005/v1
+  model: qwen3.6-27b
+  timeout_seconds: 90
+  api_key: EMPTY
+  health_path: /models
+  sampling:
+    classification:
+      temperature: 0.1
+      top_p: 0.85
+      top_k: 20
+      max_tokens: 800
+      seed: 20260430
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+      repetition_penalty: 1.05
+    explanation:
+      temperature: 0.25
+      top_p: 0.9
+      top_k: 40
+      max_tokens: 1200
+      seed: 20260430
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+      repetition_penalty: 1.05
+    analytics:
+      temperature: 0.2
+      top_p: 0.85
+      top_k: 40
+      max_tokens: 1500
+      seed: 20260430
+      frequency_penalty: 0.0
+      presence_penalty: 0.0
+      repetition_penalty: 1.05
+
+ocr:
+  url: http://127.0.0.1:10004
+  timeout_seconds: 120
+  model_id: PaddlePaddle/PaddleOCR-VL
+  model_dir: /data2/social_workspace/models/PaddleOCR-VL
+  default_task: ocr
+  device: cuda
+  dtype: bfloat16
+
+agent:
+  output_language: zh
+  error_categories:
+    - 计算错误
+    - 题目理解错误
+    - 知识点错误
+    - 答题技巧错误
+    - 手写誊抄错误
+    - 逻辑推理错误
+    - 注意力与细节错误
+    - 无错误
+  feedback_sections:
+    - 你错在什么地方
+    - 正确的解题思路是什么
+    - 下次如何避免类似错误

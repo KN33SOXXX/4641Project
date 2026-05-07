@@ -1,0 +1,36 @@
+# Runtime and generated state
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Heavy workspace mounted from /data2
+social_workspace
+social_workspace/
+/datasets/
+/models/
+/cache/
+/logs/
+/outputs/
+
+# Local logs and run artifacts
+*.log
+*.pid
+*.jsonl.tmp
+*.tmp
+
+# OS/editor files
+.DS_Store
+.idea/
+.vscode/
+
