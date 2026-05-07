@@ -2,11 +2,11 @@
 name: scratchmath-handwritten-parsing
 description: OCR and visual parsing for handwritten ScratchMath solution images using a resident PaddleOCR-VL service.
 version: 0.1.0
-author: TODO_AUTHOR
-github_username: TODO_GITHUB_USERNAME
-repo_url: TODO_REPO_URL
+author: Yehua Huang
+github_username: KN33SOXXX
+repo_url: https://github.com/KN33SOXXX/4641Project
 tags: [education, math, ocr, scratchwork, social-network-mining]
-metadata: {"openclaw":{"requires":{"bins":["python","curl"],"config":["config.yaml"]},"homepage":"TODO_REPO_URL"}}
+metadata: {"openclaw":{"requires":{"bins":["python","curl"],"config":["config.yaml"]},"homepage":"https://github.com/KN33SOXXX/4641Project"}}
 ---
 
 # ScratchMath Handwritten Parsing

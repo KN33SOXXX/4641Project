@@ -2,11 +2,11 @@
 name: scratchmath-student-work-extraction
 description: Extract student final answers, visible steps, uncertainty, and scratchwork summaries from ScratchMath OCR output.
 version: 0.1.0
-author: TODO_AUTHOR
-github_username: TODO_GITHUB_USERNAME
-repo_url: TODO_REPO_URL
+author: Jiayu Chen
+github_username: KN33SOXXX
+repo_url: https://github.com/KN33SOXXX/4641Project
 tags: [education, math, reasoning, scratchwork, diagnosis]
-metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"TODO_REPO_URL"}}
+metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"https://github.com/KN33SOXXX/4641Project"}}
 ---
 
 # ScratchMath Student Work Extraction

@@ -1,14 +1,14 @@
 # StudyClawHub Submission Metadata
 
-Replace `TODO_*` values before registering on the StudyClawHub website.
+Metadata is ready for StudyClawHub registration.
 
 ## Repository
 
 | Field | Value |
 | --- | --- |
-| GitHub repo URL | `TODO_REPO_URL` |
-| Author | `TODO_AUTHOR` |
-| GitHub username | `TODO_GITHUB_USERNAME` |
+| GitHub repo URL | `https://github.com/KN33SOXXX/4641Project` |
+| Author | `ScratchMath Team (Yehua Huang, Jiayu Chen, Ningyuan Xiao, Qixiang Hua, Xiaofeng Li)` |
+| GitHub username | `KN33SOXXX` |
 | Version | `0.1.0` |
 | License | `MIT-0 compatible for submitted skill bundles` |
 
@@ -31,12 +31,12 @@ Replace `TODO_*` values before registering on the StudyClawHub website.
 | Version | `0.1.0` |
 | Tags | `education, math, homework-feedback, social-network-mining, multi-skill-agent` |
 | Path to Agent Folder | `.claude/agents/scratchmath-homework-feedback-agent` |
-| GitHub repo URL | `TODO_REPO_URL` |
-| Author | `TODO_AUTHOR` |
+| GitHub repo URL | `https://github.com/KN33SOXXX/4641Project` |
+| Author | `ScratchMath Team (Yehua Huang, Jiayu Chen, Ningyuan Xiao, Qixiang Hua, Xiaofeng Li)` |
 
 ## Website Registration Checklist
 
-1. Push this repository to GitHub after replacing `TODO_REPO_URL`, `TODO_AUTHOR`, and `TODO_GITHUB_USERNAME`.
+1. Push this repository to GitHub after replacing `https://github.com/KN33SOXXX/4641Project`, `ScratchMath Team (Yehua Huang, Jiayu Chen, Ningyuan Xiao, Qixiang Hua, Xiaofeng Li)`, and `KN33SOXXX`.
 2. On StudyClawHub, submit each skill individually with the corresponding folder path above.
 3. Submit the integrated agent with `.claude/agents/scratchmath-homework-feedback-agent`.
 4. Do not upload `/data2/social_workspace`, model weights, dataset files, logs, or generated outputs.

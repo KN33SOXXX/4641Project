@@ -2,11 +2,11 @@
 name: scratchmath-scratchwork-diagnosis
 description: Compare extracted student work against a reference solution and classify the dominant ScratchMath error cause with evidence.
 version: 0.1.0
-author: TODO_AUTHOR
-github_username: TODO_GITHUB_USERNAME
-repo_url: TODO_REPO_URL
+author: Qixiang Hua
+github_username: KN33SOXXX
+repo_url: https://github.com/KN33SOXXX/4641Project
 tags: [education, math, error-diagnosis, feedback, assessment]
-metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"TODO_REPO_URL"}}
+metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"https://github.com/KN33SOXXX/4641Project"}}
 ---
 
 # ScratchMath Scratchwork Diagnosis

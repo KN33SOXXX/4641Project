@@ -2,11 +2,11 @@
 name: scratchmath-reference-solution
 description: Generate an independent reference solution from ScratchMath question text only for later diagnosis.
 version: 0.1.0
-author: TODO_AUTHOR
-github_username: TODO_GITHUB_USERNAME
-repo_url: TODO_REPO_URL
+author: Ningyuan Xiao
+github_username: KN33SOXXX
+repo_url: https://github.com/KN33SOXXX/4641Project
 tags: [education, math, solution-generation, qwen, reasoning]
-metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"TODO_REPO_URL"}}
+metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"https://github.com/KN33SOXXX/4641Project"}}
 ---
 
 # ScratchMath Reference Solution

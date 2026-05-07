@@ -2,11 +2,11 @@
 name: scratchmath-graph-feedback-generation
 description: Build an analysis graph from ScratchMath diagnosis rounds and reason over it to generate feedback and teacher summaries.
 version: 0.1.0
-author: TODO_AUTHOR
-github_username: TODO_GITHUB_USERNAME
-repo_url: TODO_REPO_URL
+author: Xiaofeng Li
+github_username: KN33SOXXX
+repo_url: https://github.com/KN33SOXXX/4641Project
 tags: [education, graph-reasoning, feedback, social-network-mining, qwen]
-metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"TODO_REPO_URL"}}
+metadata: {"openclaw":{"requires":{"bins":["python"],"config":["config.yaml"]},"homepage":"https://github.com/KN33SOXXX/4641Project"}}
 ---
 
 # ScratchMath Graph Feedback Generation

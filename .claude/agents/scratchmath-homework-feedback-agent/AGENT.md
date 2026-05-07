@@ -2,11 +2,11 @@
 name: scratchmath-homework-feedback-agent
 description: Integrates five ScratchMath skills into a question-plus-image agent for OCR, student work extraction, reference solving, diagnosis, graph feedback, and social report generation.
 version: 0.1.0
-author: TODO_AUTHOR
-github_username: TODO_GITHUB_USERNAME
-repo_url: TODO_REPO_URL
+author: ScratchMath Team (Yehua Huang, Jiayu Chen, Ningyuan Xiao, Qixiang Hua, Xiaofeng Li)
+github_username: KN33SOXXX
+repo_url: https://github.com/KN33SOXXX/4641Project
 tags: [education, math, homework-feedback, social-network-mining, multi-skill-agent]
-metadata: {"openclaw":{"requires":{"bins":["python","bash","curl"],"config":["config.yaml"]},"homepage":"TODO_REPO_URL"}}
+metadata: {"openclaw":{"requires":{"bins":["python","bash","curl"],"config":["config.yaml"]},"homepage":"https://github.com/KN33SOXXX/4641Project"}}
 ---
 
 # ScratchMath Homework Feedback Agent
@@ -92,5 +92,5 @@ PYTHONDONTWRITEBYTECODE=1 /home/user/miniconda3/envs/dl/bin/python \
 - Submit each component skill individually to StudyClawHub.
 - Submit this agent as the group-level integration.
 - Do not publish dataset files, OCR model weights, logs, cache files, or generated outputs.
-- Replace `TODO_REPO_URL`, `TODO_AUTHOR`, and `TODO_GITHUB_USERNAME` before registration.
+- Metadata ready for StudyClawHub registration.
 
