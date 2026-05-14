@@ -1,6 +1,10 @@
 # ScratchMath Homework Feedback Agent
 
-This directory contains only the core agent files. Datasets, models, caches, logs,
+This directory contains only the core agent files.
+
+> The `report.html` / `index.html` in this repo is an agent-generated social report
+> (ScratchMath Student Social Report), deployed via GitHub Pages at
+> [https://kn33soxxx.github.io/4641Project/](https://kn33soxxx.github.io/4641Project/). Datasets, models, caches, logs,
 and experiment outputs live under `/data2/social_workspace`.
 
 ## Layout
